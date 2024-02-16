@@ -1,0 +1,21 @@
+.csym019{
+    padding: 5px;
+    width:50%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(86, 182, 182);
+    box-shadow: 3px 3px #fafafa;
+    
+}
+.csym015{
+    width:50%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: hsl(51, 85%, 47%);
+    box-shadow: 3px 3px #fafafa;
+    
+}
+div{
+    display: flex;
+}

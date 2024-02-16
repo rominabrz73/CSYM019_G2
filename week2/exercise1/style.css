@@ -1,0 +1,33 @@
+.part1 h2{
+    color: rgb(208, 75, 75);
+}
+
+.part1 p{
+    background-color: #000;
+    color:#fff;
+} 
+
+.part2 h2{
+    color: rgb(32, 131, 25)
+}
+.part2 p{
+    color: rgb(20, 140, 12);
+    background-color: rgb(115, 29, 29);
+}
+.part3 p{
+    color:rgb(20, 140, 12)
+}
+
+.part3 > div > p{
+    color:rgb(20, 140, 12)
+}
+
+.part4>div> p:not(:last-child){
+    color:#000;
+}
+
+
+.part4> p{
+    color:rgb(20, 140, 12)
+}
+    

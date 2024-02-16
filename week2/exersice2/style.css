@@ -1,0 +1,15 @@
+.csym019{
+    width:50%;
+    
+    background-color: rgb(86, 182, 182);
+    
+}
+.csym015{
+    width:50%;
+  
+    background-color: hsl(51, 85%, 47%);
+    
+}
+div{
+    display: flex;
+}
