@@ -1,48 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Topic 2 exercise 4</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Heading</h1>
-    </header>
-    
-    <nav>
-        <ul>
-          <li>
-			<a>link1</a>
-		  </li>
-		  <li>
-			<a>link2</a>
-		  </li>
-		  <li>
-			<a>link3</a>
-		  </li>
-          
-    </nav>
-    
-    <main>
-        <p>
-          What is HTML? HTML stands for Hyper Text Markup Language HTML is the
-          standard markup language for creating Web pages HTML describes the
-          structure of a Web page HTML consists of a series of elements HTML
-          elements tell the browser how to display the content HTML elements
-          label pieces of content such as "this is a heading", "this is a
-          paragraph", "this is a link", etc. What is HTML? HTML stands for Hyper
-          Text Markup Language HTML is the standard markup language for creating
-          Web pages HTML describes the structure of a Web page HTML consists of
-          a series of elements HTML elements tell the browser how to display the
-          content HTML elements label pieces of content such as "this is a
-          heading", "this is a paragraph", "this is a link", etc.
-        </p>
-		
-    </main>
-    <aside>
-        <h3>right head side</h3>
-    </aside>
-    </section>
-    <footer> c your name 2015</footer>
-  </body>
-</html>
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"  "nav nav nav" "main main aside" "footer footer footer" ;
+  
+
+}
+header{
+    background-color: blue;
+    color: #fff;
+    grid-area: header;
+    height: 200px;
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgba(255, 255, 0, 0.947);
+}
+ul{  display: flex;
+    justify-content: space-between;
+}
+
+main{
+    color: #fff;
+    grid-area: main;
+    background-color: #080231;
+}
+aside{
+    grid-area: aside;
+    background-color: #008000;
+}
+footer{
+    color: #fff;
+    grid-area: footer;
+    background-color: rgb(7, 55, 7);
+}
