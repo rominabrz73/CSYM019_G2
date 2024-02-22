@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"  "nav main main"  "footer footer footer" ;
+  
+
+}
+header{
+    background-color: blue;
+    color: #fff;
+    grid-area: header;
+    height: 200px;
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgba(255, 255, 0, 0.947);
+}
+
+
+main{
+    color: #fff;
+    grid-area: main;
+    background-color: #080231;
+}
+aside{
+    grid-area: aside;
+    background-color: #008000;
+}
+footer{
+    color: #fff;
+    grid-area: footer;
+    background-color: rgb(7, 55, 7);
+}
