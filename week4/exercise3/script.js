@@ -3,8 +3,8 @@ function myFunction(){
    
     var element = document.getElementById('heading');
     element.firstChild.nodeValue ='Heading';
-    var element = document.getElementById('prgraph');
-    element.firstChild.nodeValue ='Hello';
+    var pelement = document.getElementById('prgraph');
+    pelement.firstChild.nodeValue ='Hello';
     
     
     }
